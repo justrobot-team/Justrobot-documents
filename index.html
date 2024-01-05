@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Justrobot</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="一个基于 python 的异步机器人框架">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!-- 网站图标 -->
+    <link rel="icon" href="/assets/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon" />
+    <!-- 默认主题 -->
+    <link rel="stylesheet" href="/modules/vue.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-dark-mode@latest/dist/style.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/docsify-toc@1.0.0/dist/toc.css">
+</head>
+
+<body>
+    <!-- 加载时动作 -->
+    <div id="app">加载中...</div>
+    <script>
+        window.$docsify = {
+            name: 'Justrobot',
+            repo: 'https://github.com/oldcitynight/justrobot',
+            loadSidebar: true,
+            loadNavbar: true,
+            loadNavbar: true,
+            coverpage: true,
+            maxLevel: 5,
+            subMaxLevel: 4,
+            mergeNavbar: true
+        }
+    </script>
+    <script>
+        // 插件配置
+        window.$docsify = {
+
+            search: {
+                maxAge: 86400000,
+                paths: auto,
+                placeholder: '搜索',
+                placeholder: {
+                    '/zh-cn/': '搜索',
+                    '/': '搜索'
+                },
+                noData: '似乎来到了没有知识的荒原',
+                depth: 4,
+                hideOtherSidebarContent: false,
+                namespace: 'Justrobot'
+            },
+            pagination: {
+                previousText: '上一节',
+                nextText: '下一节',
+                crossChapter: true,
+                crossChapterText: true
+            },
+            darkMode: {
+                dark: {
+                background: "#030A24",
+                toggleBtnBg: "#fff",
+                textColor: "#fff"
+                },
+                light: {
+                background: "#fff",
+                toggleBtnBg: "#030A24",
+                textColor: "#000000"
+                }
+            },
+            toc: {
+                scope: '.markdown-section',
+                headings: 'h1, h2, h3, h4, h5, h6',
+                title: 'Table of Contents'
+            },
+            'flexible-alerts': {
+                note: {
+                    label: "Hinweis"
+                },
+                tip: {
+                    label: "Tipp"
+                },
+                warning: {
+                    label: "Warnung"
+                },
+                attention: {
+                    label: "Achtung"
+                }
+            }
+        }
+
+    </script>
+    <!-- docsify 本体的 js 依赖 -->
+    <script src="/modules/docsify.min.js"></script>
+    <!-- emoji -->
+    <script src="/modules/emoji.min.js"></script>
+    <!-- 图片放大缩小 -->
+    <script src="/modules/zoom-image.min.js"></script>
+    <!-- 搜索功能 -->
+    <script src="/modules/search.min.js"></script>
+    <!-- 右侧目录 -->
+    <script src="/modules/toc.js"></script>
+    <!-- 暗黑模式 -->
+    <script src="/modules/index.min.js"></script>
+    <!-- 文本高亮 -->
+    <script src="/modules/docsify-plugin-flexible-alerts.js"></script>
+    <!-- 跳转文档 -->
+    <script src="/modules/docsify-pagination.min.js"></script>
+    <!-- python 语法美化 -->
+    <script src="/modules/prism-python.min.js"></script>
+    <!-- 添加 Click to copy 按钮 -->
+    <script src="/modules/docsify-copy-code.min.js"></script>
+</body>
+</html>
