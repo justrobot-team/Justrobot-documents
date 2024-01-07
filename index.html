@@ -21,7 +21,9 @@
     <!-- 加载时动作 -->
     <div id="app">加载中...</div>
     <script>
+        // 插件配置
         window.$docsify = {
+            
             name: 'Justrobot',
             repo: 'https://github.com/oldcitynight/justrobot',
             loadSidebar: true,
@@ -30,16 +32,11 @@
             coverpage: true,
             maxLevel: 5,
             subMaxLevel: 4,
-            mergeNavbar: true
-        }
-    </script>
-    <script>
-        // 插件配置
-        window.$docsify = {
+            mergeNavbar: true,
 
             search: {
                 maxAge: 86400000,
-                paths: auto,
+                paths: 'auto',
                 placeholder: '搜索',
                 placeholder: {
                     '/zh-cn/': '搜索',

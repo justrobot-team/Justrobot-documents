@@ -27,14 +27,14 @@
     * 消息结构规范
       * [消息结构规范](./develop/message/readme.md)
       * [消息成员文档](./develop/message/basemessage.md)
-      * [消息属性介绍]()
-      * [消息方法介绍]()
+      * [消息属性介绍](./develop/message/readme.md)
+      * [消息方法介绍](./develop/message/readme.md)
     * 机器人接口
       * [机器人接口文档](./develop/interface/readme.md)
-      * [机器人上下文实例]()
-      * [实例成员列表]()
-      * [实例属性介绍]()
-      * [实例方法介绍]()
+      * [机器人上下文实例](./develop/interface/readme.md)
+      * [实例成员列表](./develop/interface/readme.md)
+      * [实例属性介绍](./develop/interface/readme.md)
+      * [实例方法介绍](./develop/interface/readme.md)
     * 进阶
       * [了解机器人的底层逻辑](./develop/justrobot/readme.md)
       * [消息结构完整规范](./develop/message/readme.md)
