@@ -2,10 +2,11 @@
   * 开始
     * [Readme](./README.md)
   * 部署指南
-    * [快速开始](./start/readme.md)
-    * [如何安装适配器](./build/readme.md#适配器安装)
-    * [如何安装转译器](./build/readme.md#转译器安装)
-    * [如何安装插件](./build/readme.md#插件安装)
+    * [快速开始](./build/readme.md)
+    * [如何安装适配器](./build/install.md#适配器安装)
+    * [如何安装转译器](./build/install.md#转译器安装)
+    * [如何安装插件](./build/install.md#插件安装)
+    * [部署常见问题解决](./build/error.md)
     * 进阶
       * [关系树使用方法](./build/justrobot/tree.md)
       * [使用 Conda 配置虚拟环境](./build/conda/readme.md)
