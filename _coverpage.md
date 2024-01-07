@@ -1,6 +1,6 @@
 ![logo](/assets/favicon.ico)
 
-# <span style="color:white;">Justrobot</span>
+# Justrobot
 
 > <span style="color:white;">一个基于 python 的异步聊天机器人框架。</span>
 

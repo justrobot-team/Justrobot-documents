@@ -4,7 +4,6 @@
 [![Python 3.x](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
 [![Stars](https://img.shields.io/github/stars/justrobot-team/justrobot.svg?style=social&label=Stars)]()
 [![Followers](https://img.shields.io/github/followers/justrobot-team.svg?style=social&label=Follow)]()
-* [Github](https://github.com/justrobot-team/justrobot)
 ## 一个基于 python 的异步聊天机器人框架
 
 ## 本文档基于 [docsify](https://docsify.js.org) 构建
