@@ -2,4 +2,4 @@
 
 - <a href="https://doc.justrobot.dev" ><span style="color:white;">项目主页</span></a>
 
-- <a href="https://discord.gg/H3yCw7fuHw" ><span style="color:white;">联系我们</span></a>
+- <a href="mailto:team@justrobot.dev" ><span style="color:white;">联系我们</span></a>
