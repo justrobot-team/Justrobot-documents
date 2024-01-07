@@ -23,7 +23,9 @@
 
 ### 内容收集仓库:
 
-1. 后续开放
+* [适配器仓库](https://github.com/justrobot-team/justrobot-adapter)
+* [转译器仓库](https://github.com/justrobot-team/justrobot-translator)
+* [插件仓库](https://github.com/justrobot-team/justrobot-plugin)
 
 ## 联系方式
 
