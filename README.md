@@ -13,6 +13,15 @@
 * [转译器仓库](https://github.com/justrobot-team/justrobot-translator)
 * [插件仓库](https://github.com/justrobot-team/justrobot-plugin)
 
+## 本地阅读文档:
+* Windows:
+  1. 克隆本项目然后在项目根目录下运行`python run`
+  2. 访问[本地网站](http://localhost:8000)
+* Linux:
+  1. 克隆本项目然后在项目根目录下运行`sudo chmod +x run && ./run --localhost 0`
+  2. 访问Linux主机的 8000 端口
+> 如果要自定义端口可以使用`-p`或`--port`指定端口, 想要对外部网络开放可以使用`--localhost 0`指定向外部网络开放
+
 ## 思路来源
 * [Yunzai-Bot](https://github.com/yhArcadia/Yunzai-Bot-plugins-index)
 * [Nonebot2](https://github.com/nonebot/nonebot2)

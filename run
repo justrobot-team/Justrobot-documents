@@ -1,0 +1,47 @@
+#!/usr/bin/env python3
+import http.server
+import socketserver
+import argparse
+import subprocess
+
+def run_server(port, localhost):
+    handler = http.server.SimpleHTTPRequestHandler
+
+    bind_address = "localhost" if localhost == 1 else "0.0.0.0"
+
+    with socketserver.TCPServer((bind_address, port), handler) as httpd:
+        print(f"Server started on {'localhost' if localhost else '0.0.0.0'}:{port}")
+        
+        httpd.serve_forever()
+
+def main():
+    parser = argparse.ArgumentParser(description="Run Document Server locally")
+
+    parser.add_argument("-p", "--port", type=int, default=8000, help="Listening port, default 8000")
+
+    parser.add_argument("--localhost", type=int, default=1, help="Listening on localhost, 1 for True, 0 for False")
+
+    parser.add_argument("-v", "--version", action="version", version="version dev 0.0.1")
+
+    parser.add_argument('--update', action='update', help='Update the server to the latest version')
+
+    try:
+        args, unknown = parser.parse_known_args()
+    except argparse.ArgumentError as e:
+        print(e)
+        exit(1)
+    if unknown:
+        print(f"Unknown arguments: {unknown}")
+        parser.print_help()
+        exit(1)
+
+    if args.update:
+        print('Updating server...')
+        subprocess.Popen(["git", "pull"])
+        print("Server update finished")
+        exit(0)
+
+    run_server(args.port, args.localhost)
+
+if __name__ == "__main__":
+    main()

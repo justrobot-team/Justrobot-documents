@@ -8,6 +8,7 @@
 
 [GitHub](https://github.com/justrobot-team/justrobot/)
 [Gitee](https://gitee.com/oldcitynight/justrobot/)
-[开始创建](/README.md)
+[查看文档](./README.md)
+[开始创建](./build/readme.md)
 
 ![color](#050F36)
