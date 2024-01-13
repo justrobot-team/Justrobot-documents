@@ -6,6 +6,8 @@
 [![Followers](https://img.shields.io/github/followers/justrobot-team.svg?style=social&label=Follow)]()
 ## 一个基于 python 的异步聊天机器人框架
 
+## 文档编写暂时搁置，若有开发需求请查阅代码注释
+
 ## 本文档基于 [docsify](https://docsify.js.org) 构建
 
 ## 内容收集库
